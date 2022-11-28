@@ -56,10 +56,10 @@ Feel free to add me to your groups.
                     ),
                   ],[
                     InlineKeyboardButton(
-                       "Updates", url=f"https://t.me/{UPDATES_CHANNEL}"
+                       "🍹 Developer", url=f"https://t.me/zain_THE_smoker"
                     ),
                     InlineKeyboardButton(
-                       "Support", url=f"https://t.me/{GROUP_SUPPORT}"
+                       "🥂 Support", url=f"https://t.me/+9Jfz4TpU3fkzOGFl"
                     )
                 ],[
                     InlineKeyboardButton(
@@ -73,16 +73,16 @@ Feel free to add me to your groups.
     )
 
 
-@Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["fed", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/f01f58c3d9b187ae1d8a1.jpg",
-        caption=f"""Here Is The Source Code Fork And Give Stars ✨""",
+        photo=f"https://te.legra.ph/file/f188ed62530d5aa7fc656.jpg",
+        caption=f"""Here Is The Our Federation Support ✨""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ʀᴇᴘᴏ ⚒️", url=f"https://github.com/AMANTYA1/RaiChu-MusicV2")
+                        " Federation ⚒️", url=f"https://t.me/Death_Soul_Federation")
                 ]
             ]
         ),
