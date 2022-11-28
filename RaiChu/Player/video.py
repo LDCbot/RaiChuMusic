@@ -21,7 +21,7 @@ from pytgcalls.types.input_stream.quality import (
 from youtubesearchpython import VideosSearch
 from Process.design.thumbnail import play_thumb, queue_thumb
 
-IMAGE_THUMBNAIL = "https://telegra.ph/file/519b6bc739756cb822039.png"
+IMAGE_THUMBNAIL = "https://te.legra.ph/file/f188ed62530d5aa7fc656.jpg"
 
 def ytsearch(query: str):
     try:
@@ -183,8 +183,8 @@ async def vplay(c: Client, m: Message):
                       reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/TheUpdatesChannel"),
-                            InlineKeyboardButton("💭 Support", url=f"https://t.me/TheSupportChat")
+                            InlineKeyboardButton("🍹 Developer", url=f"https://t.me/zain_THE_smoker"),
+                            InlineKeyboardButton("🥂 Support", url=f"https://t.me/+9Jfz4TpU3fkzOGFl")
                         ],
                         [
                             InlineKeyboardButton("🗑 Close", callback_data="cls")
@@ -232,7 +232,7 @@ async def vplay(c: Client, m: Message):
                         else:
                             try:
                                 await loser.edit(
-                            f"**𝘾𝙧𝙤𝙬 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**𝒁𝒂𝒊𝒏 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                                 await call_py.join_group_call(
                                     chat_id,
@@ -310,7 +310,7 @@ async def vplay(c: Client, m: Message):
                     else:
                         try:
                             await loser.edit(
-                            f"**𝙉𝙪𝙡𝙡 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
+                            f"**𝒁𝒂𝒊𝒏 Downloader**\n\n**Title**: {title[:22]}\n\n100% ████████████100%\n\n**Time Taken**: 00:00 Seconds\n\n**Converting Audio[FFmpeg Process]**"
                         )
                             await call_py.join_group_call(
                                 chat_id,
