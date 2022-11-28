@@ -34,10 +34,10 @@ Feel free to add me to your groups.
                     ),
                   ],[
                     InlineKeyboardButton(
-                       "Updates", url=f"https://t.me/{UPDATES_CHANNEL}"
+                       "🍹 Developer", url=f"https://t.me/zain_THE_smoker"
                     ),
                     InlineKeyboardButton(
-                       "Support", url=f"https://t.me/{GROUP_SUPPORT}"
+                       "🥂 Support", url=f"https://t.me/+9Jfz4TpU3fkzOGFl"
                     )
                 ],[
                     InlineKeyboardButton(
