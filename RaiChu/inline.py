@@ -64,7 +64,7 @@ def menu_markup(user_id):
       InlineKeyboardButton(text="▢", callback_data=f'cbstop | {user_id}')
     ],
      [InlineKeyboardButton(text="🔇", callback_data=f'cbmute | {user_id}'),
-      InlineKeyboardButton(text="ᴜᴩᴅᴀᴛᴇs", url=f"https://t.me/BotDuniyaXd"),
+      InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/zain_THE_smoker"),
       InlineKeyboardButton(text="🔊", callback_data=f'cbunmute | {user_id}')],
   ]
   return buttons
